@@ -1,0 +1,66 @@
+/* 
+
+#div {
+    border: 2px solid black;
+    height:400px;
+    width:150px;
+    padding: 10;
+    
+}
+
+#div1 {
+    border: 2px solid black;
+    height:100px;
+    width:100px;
+    background-color:red;
+    border-radius:50%;
+    margin:20px;
+}
+
+#div2 {
+    border: 2px solid black;
+    height:100px;
+    width:100px;
+    background-color:yellow;
+    border-radius:50%;
+    margin:20px;
+}
+
+#div3 {
+    border: 2px solid black;
+    height:100px;
+    width:100px;
+    background-color:green;
+    border-radius:50%;
+    margin:20px;
+} */
+
+
+/* =============================================== */
+
+
+/* div {
+    height: 150px;
+    width: 300px;
+    background-color: grey;
+    border: 5px dotted black;
+    margin: 20px 1em 40px 2em;
+    padding: 1em;
+} */
+
+/* =============================================== */
+
+/* div {
+    height: 100px;
+    width: 100px;
+    background-color:pink;
+    border: 2px solid black;
+    border-radius: 50%;
+    display:inline-block;
+} */
+
+/* =============================================== */
+
+li {
+    display: inline;
+}

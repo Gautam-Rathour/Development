@@ -1,0 +1,218 @@
+/* div {
+    height : 200px;
+    width : 200px;
+    background-color: rgb(81, 169, 26);
+    transition-duration: 1s;
+    transition-delay:1s;
+}
+
+#opacity {
+    background-color: #ffa511;
+    opacity: 2;
+}
+
+div:hover {
+    background-color: rgb(6, 6, 6);
+    border-radius:50%;                                                                     
+} */
+
+/* ================================================================ */
+
+/* div {
+    height : 100px;
+    width : 100px;
+    background-color: rgb(81, 169, 26);
+
+    margin: 0 auto;
+    margin-top: 10px;
+    transition: margin-top 2s ease-in-out 0.2s;
+}
+
+div:hover {
+    margin-top: 400px;
+    background-color: pink;
+} */
+
+/* ================================================================ */
+
+/* 
+section {
+    margin-top: 100px;
+}
+
+div {
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    background-color: #7aa874;
+    border: 2px solid black;
+    margin: 10px auto;
+}
+
+div:nth-of-type(2n) {
+    background-color: #f7db6a;
+}
+
+div:nth-of-type(3n) {
+    background-color: #ebb02d;
+}*/
+
+ /* Transform */
+
+ /*
+ #one {
+    transform: rotate(-45deg);
+ }
+
+ #two {
+    transform: scaleX( 2);
+ }
+
+ #three {
+    transform: translateX(-100px);
+ }
+
+ #four {
+    transform: skewX(-30deg)
+ }
+
+ #five {
+    transform: rotate(30deg) translateX(150px)
+ }
+ */
+
+ /* ================================================================ */
+
+ /* div {
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    background-color: #7aa874;
+    margin: 10px auto;
+    border-radius:5px;
+    box-shadow: 2px 5px 10px black;
+} */
+
+/* ================================================================ */
+
+/* div {
+    width: 400px;
+    height: 200px;
+    background-color: #7aa874;
+    margin: 10px auto;
+    background-image: url("bgimage.jpg");
+    background-size: cover;
+    color:white;
+} */
+
+/* ================================================================ */
+/* ================================================================ */
+
+/* 
+.card {
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    display: inline-block;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px black;
+    transition: 0.5s;
+}
+
+
+.desc {
+    padding :0 2px 0 2px;
+}
+
+img {
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px black;
+} */
+
+/* ================================================================ */
+/* ================================================================ */
+/* 
+div {
+    height : 100px;
+    width: 100px;
+    background-color: green;
+    text-align: center;
+    border: 3px solid black;
+    margin: 20px;
+    display:inline-block;
+}
+
+#static {
+    background-color: yellow;
+    position : static;
+    top: 100px;
+    left: 100px;
+}
+
+
+#relative {
+    background-color: yellow;
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+ 
+#absolute {
+    background-color: yellow;
+    position:absolute;
+    top: 100px;
+    left : 100px;
+}
+
+#fixed {
+    background-color: yellow;
+    position: fixed;
+    top: 100px;
+    left : 100px;
+} */
+
+
+/* ================================================================ */
+/* ================================================================ */
+
+
+.face {
+    width: 400px;
+    height: 400px;
+    background-color: #ffa511;
+    border-radius:50%;
+}
+
+.mouth {
+    width:200px;
+    height:75px;
+    background-color: brown;
+    border-radius: 0 0 70px 70px;
+    position:absolute;
+    top: 250px;
+    left: 100px;
+}
+
+.left-eye, .right-eye {
+
+    width: 50px;
+    height: 70px;
+    background-color: black;
+    border-radius:50%;
+    display:inline-block;
+    position:absolute;
+    top: 100px;
+    left: 100px;
+}
+
+.right-eye {
+    left: 260px;
+}
+
+
+

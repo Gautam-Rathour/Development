@@ -1,0 +1,64 @@
+/* * {
+    font-family: courier New;
+}
+
+h1 {
+    color: #1b74e4;
+}
+
+#searchbtn {
+    background-color: black;
+    color: white;
+}
+
+.userbtn {
+    background-color: aqua;
+}
+ */
+
+/* 
+ =============================================================================
+ =============================================================================
+  */
+ 
+  * {
+    text-align:center;
+  }
+
+ #mainTopic {
+    color:blue;
+ } 
+
+h1, h2, h3 {
+    font-family:Georgia;
+}
+
+.content {
+    color : white;
+    background-color:cornflowerblue;
+}
+
+div > button {
+    background-color:purple;
+    color:azure;
+
+    &:hover {
+        background-color:yellow;
+        color:blue;
+    }
+}
+
+p:nth-of-type(2n+1) {
+    color: yellow;
+}
+
+h1::first-letter {
+    color:red;
+}
+
+input[type="checkbox"]:checked + label {
+    color:green;
+}
+
+
+

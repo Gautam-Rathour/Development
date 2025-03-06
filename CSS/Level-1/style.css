@@ -1,0 +1,128 @@
+/* h1{
+    color:blue;
+    background-color:red;
+}
+
+p{
+    color: red;
+    background-color:yellow;
+}
+
+button{
+    color:gold;
+    background-color:blue;
+} */
+
+/* =================================================== */
+
+/* h2{
+    color:#ffffff;
+    background-color: #000000;
+} */
+
+/* p {
+    color:white;
+    background-color:black;
+}
+
+button {
+    color:white;
+    background-color: blue;
+} */
+
+/* =================================================== */
+
+/* h1 {
+    text-align:center;
+    border:solid red 5px;
+    width:50%; 
+    font-weight : lighter;
+    text-decoration:wavy red underline;
+    letter-spacing: 15px;
+    font-family:avaot garde, didot, sans-serif;
+}
+
+h2 {
+    text-align:right;
+    font-weight: 800;
+    text-decoration:double line-through;
+    text-decoration-color: yellow;
+}
+
+h3 {
+    text-align:justify;
+    text-decoration: blue overline;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    line-height:1.5;
+    letter-spacing: normal;
+    font-size:20px;
+    font-family:arial;
+} 
+*/
+
+/* =================================================== */
+
+/* h1 {
+    font-family: league spartan;
+    color: #ffa511;
+    text-align: center;
+    font-size:55px;
+    font-weight:900;
+    letter-spacing:2px;
+    line-height:1.5;
+    text-decoration:rgb(0, 255, 255) double underline;
+    text-transform: uppercase;
+} */
+
+/* =================================================== */
+
+* {
+    font-family : Georgia;
+}
+h1 {
+    text-align:center;
+    text-decoration:underline;
+}
+
+h3 {
+    text-align:center;
+    color:black;
+}
+
+p {
+    color:#4d3f3f;
+    text-align:center;
+    color:red;
+    line-height:30px;
+}
+
+h4 {
+    text-align:center;
+}
+
+a {
+    color:rgb(0, 255, 0);
+    text-decoration: none;
+}
+
+textarea {
+    color: #000;
+}
+
+button {
+    background-color:white;
+    color:blueviolet
+}
+
+/* =================================================== */
+/* =================================================== */
+
+
+
