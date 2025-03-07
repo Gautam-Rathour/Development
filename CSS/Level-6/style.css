@@ -1,0 +1,186 @@
+/* 
+* {
+    margin: 0;
+    padding: 0;
+} */
+/* 
+.container {
+    width: 600px;
+    height: 300px;
+    background-color: yellow;
+    display: inline-grid;
+    /* grid-template-rows: 50px 50px 50px 50px 50px;
+    grid-template-columns: 200px 200px  200px; */
+    /* grid-template-rows: repeat(2, 1fr); */
+    /* grid-template-columns:repeat(3, 1fr); */
+    /* row-gap: 10px;
+    column-gap: 30px; */
+    /* grid-gap: 10px 10px; */
+    /* justify-items: start;
+    align-items: center; */
+    /* place-items: center; 
+} */
+
+/* .item {
+    width: 100px;
+    height: 50px;
+    background-color: greenyellow;
+    border: 2px solid black;
+    text-align: center;
+} */
+
+/* .one {
+    justify-self: end;
+    align-self: start;
+    place-self: start;
+} */
+/* .one {
+    /* grid-column-start:1;
+    grid-column-end:3; */
+    /* grid-column: 1 / 4; */
+    /* grid-column: 1 / span 2; 
+} */
+
+/* .two { */
+    /* grid-row-start: 1;
+    grid-row-end: 3; */
+    /* grid-row: 1/4; */
+    /* grid-row: 1 / span 3; */
+/* } */
+
+
+
+
+
+/* ================================================================================ */
+/* ================================================================================ */
+
+
+
+
+
+.box {
+    height: 100px;
+    width: 300px;
+    background-color: pink;
+
+    /* animation-name: widthAnimation;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+    animation-direction: alternate; */
+
+
+    animation: colorAnimation 10s ease-in 0s infinite normal;
+}
+
+@keyframes fontAnimation {
+    from{
+        font-size: 20px;
+        
+    } to {
+        font-size: 40px;
+        
+    }
+}
+
+/* @keyframes colorAnimation {
+    from {
+        background-color: green;
+    } to {
+        background-color: blue;
+    }
+} */
+
+@keyframes widthAnimation {
+    from {
+        width : 20px;
+        background-color: green;
+        } to { 
+            width: 400px;
+            background-color: blue;
+            border-radius: 30px;
+    }
+}
+
+
+@keyframes colorAnimation {
+    0% {
+        background-color:green;
+    }
+    30% {
+        background-color: yellow;
+    }
+    80% {
+        background-color: blue;
+    }
+    100% {
+        background-color: red;
+    }
+}
+
+
+
+/* ================================================================================ */
+/* ================================================================================ */
+
+h1 {
+    background-color: yellow;
+    border: 2px solid black;
+}
+
+@media (min-width : 400px) {
+    h1 {
+        background-color: red;
+        color: white;
+    }
+
+div {
+    height : 100px;
+    width: 100px;
+    background-color: blue;
+}
+}
+
+@media (min-width: 700px) {
+    h1 {
+        background-color:green;
+    }
+}
+
+@media (max-width: 200px) {
+    h1 {
+        background-color: pink;
+    }
+}
+
+@media (min-width: 200px) and (max-width: 300px) {
+    h1 {
+        background-color: magenta;
+    }
+}
+
+
+@media (orientation: landscape) {
+    h1 {
+        background-color: orange;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
