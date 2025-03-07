@@ -58,24 +58,24 @@
 
 
 
-
+/* 
 .box {
     height: 100px;
     width: 300px;
     background-color: pink;
 
-    /* animation-name: widthAnimation;
+    animation-name: widthAnimation;
     animation-duration: 2s;
     animation-timing-function: ease-in;
     animation-delay: 0;
     animation-iteration-count: infinite;
-    animation-direction: alternate; */
+    animation-direction: alternate;
 
 
-    animation: colorAnimation 10s ease-in 0s infinite normal;
-}
+    /* animation: colorAnimation 10s ease-in 0s infinite normal; 
+} */
 
-@keyframes fontAnimation {
+/* @keyframes fontAnimation {
     from{
         font-size: 20px;
         
@@ -83,7 +83,7 @@
         font-size: 40px;
         
     }
-}
+} */
 
 /* @keyframes colorAnimation {
     from {
@@ -92,7 +92,7 @@
         background-color: blue;
     }
 } */
-
+/* 
 @keyframes widthAnimation {
     from {
         width : 20px;
@@ -118,13 +118,16 @@
     100% {
         background-color: red;
     }
-}
+} */
 
 
 
 /* ================================================================================ */
 /* ================================================================================ */
 
+/* ================================================================================ */
+/* ================================================================================ */
+/* 
 h1 {
     background-color: yellow;
     border: 2px solid black;
@@ -167,16 +170,73 @@ div {
         background-color: orange;
     }
 }
+ */
+
+/* ================================================================================ */
+/* ================================================================================ */
+/* ================================================================================ */
+/* ================================================================================ */
 
 
+/* 
+h2 {
+    color:rgb(201, 54, 54);
+}
+
+span {
+    color: rgb(186, 141, 29);
+}
+
+.card {
+    width: 350px;
+    padding: 10px;
+    margin: 10px;
+    border : 2px solid black;
+    border-radius: 20px;
+}
+
+img {
+    border-radius: 25px;
+    width: 100%;
+}
 
 
+#pets {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@media(max-width: 410px) {
+    #pets {
+        flex-wrap: wrap;
+    }
+} */
 
 
+/* ================================================================================ */
+/* ================================================================================ */
+/* ================================================================================ */
+/* ================================================================================ */
 
+.box {
+    height: 150px;
+    width: 150px;
+    border: 2px solid black;
+    background-color: pink;
+}
 
+.one {
+    background-color: aquamarine;
+    position: relative;
+    z-index: -1;
+}
 
-
+.two {
+    background-color: darksalmon;
+    position: relative;
+    bottom: 50px;
+    z-index: 2;
+}
 
 
 
