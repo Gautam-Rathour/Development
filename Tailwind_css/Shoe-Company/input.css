@@ -1,5 +1,10 @@
-/* @tailwind base;
+@tailwind base;
 @tailwind components;
-@tailwind utilities; */
+@tailwind utilities;
 
 @import "tailwindcss";
+
+
+.section-container {
+    @apply px-6 md:px-12 max-w-[1440px] mx-auto
+}
