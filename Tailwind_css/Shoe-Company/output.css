@@ -1,6 +1,63 @@
 /*! tailwindcss v4.0.8 | MIT License | https://tailwindcss.com */
+.absolute {
+  position: absolute;
+}
 .fixed {
   position: fixed;
+}
+.relative {
+  position: relative;
+}
+.-top-0 {
+  top: calc(var(--spacing) * -0);
+}
+.-top-4 {
+  top: calc(var(--spacing) * -4);
+}
+.-top-8 {
+  top: calc(var(--spacing) * -8);
+}
+.top-0 {
+  top: calc(var(--spacing) * 0);
+}
+.top-8 {
+  top: calc(var(--spacing) * 8);
+}
+.-right-60 {
+  right: calc(var(--spacing) * -60);
+}
+.right-0 {
+  right: calc(var(--spacing) * 0);
+}
+.right-4 {
+  right: calc(var(--spacing) * 4);
+}
+.right-8 {
+  right: calc(var(--spacing) * 8);
+}
+.right-60 {
+  right: calc(var(--spacing) * 60);
+}
+.-bottom-4 {
+  bottom: calc(var(--spacing) * -4);
+}
+.-bottom-16 {
+  bottom: calc(var(--spacing) * -16);
+}
+.-bottom-18 {
+  bottom: calc(var(--spacing) * -18);
+}
+.-bottom-32 {
+  bottom: calc(var(--spacing) * -32);
+}
+.bottom-0 {
+  bottom: calc(var(--spacing) * 0);
+}
+.bottom-4 {
+  bottom: calc(var(--spacing) * 4);
+}
+.left-0 {
+  left: calc(var(--spacing) * 0);
 }
 .left-\[50\%\] {
   left: 50%;
@@ -8,8 +65,50 @@
 .mx-auto {
   margin-inline: auto;
 }
+.-mt-20 {
+  margin-top: calc(var(--spacing) * -20);
+}
 .mt-12 {
   margin-top: calc(var(--spacing) * 12);
+}
+.-mb-10 {
+  margin-bottom: calc(var(--spacing) * -10);
+}
+.mb-20 {
+  margin-bottom: calc(var(--spacing) * 20);
+}
+.-ml-2 {
+  margin-left: calc(var(--spacing) * -2);
+}
+.-ml-3 {
+  margin-left: calc(var(--spacing) * -3);
+}
+.-ml-4 {
+  margin-left: calc(var(--spacing) * -4);
+}
+.-ml-20 {
+  margin-left: calc(var(--spacing) * -20);
+}
+.-ml-24 {
+  margin-left: calc(var(--spacing) * -24);
+}
+.-ml-30 {
+  margin-left: calc(var(--spacing) * -30);
+}
+.-ml-34 {
+  margin-left: calc(var(--spacing) * -34);
+}
+.-ml-38 {
+  margin-left: calc(var(--spacing) * -38);
+}
+.-ml-40 {
+  margin-left: calc(var(--spacing) * -40);
+}
+.-ml-44 {
+  margin-left: calc(var(--spacing) * -44);
+}
+.ml-auto {
+  margin-left: auto;
 }
 .flex {
   display: flex;
@@ -35,6 +134,15 @@
 .max-w-6xl {
   max-width: var(--container-6xl);
 }
+.max-w-\[150px\] {
+  max-width: 150px;
+}
+.max-w-\[250\] {
+  max-width: 250;
+}
+.max-w-\[250px\] {
+  max-width: 250px;
+}
 .max-w-\[1440px\] {
   max-width: 1440px;
 }
@@ -44,8 +152,19 @@
 .max-w-xl {
   max-width: var(--container-xl);
 }
+.max-w-xs {
+  max-width: var(--container-xs);
+}
 .-translate-x-\[50\%\] {
   --tw-translate-x: calc(50% * -1);
+  translate: var(--tw-translate-x) var(--tw-translate-y);
+}
+.-translate-x-full {
+  --tw-translate-x: -100%;
+  translate: var(--tw-translate-x) var(--tw-translate-y);
+}
+.translate-x-full {
+  --tw-translate-x: 100%;
   translate: var(--tw-translate-x) var(--tw-translate-y);
 }
 .flex-col {
@@ -64,8 +183,14 @@
     margin-inline-end: calc(calc(var(--spacing) * 6) * calc(1 - var(--tw-space-x-reverse)));
   }
 }
+.scroll-smooth {
+  scroll-behavior: smooth;
+}
 .bg-black {
   background-color: var(--color-black);
+}
+.bg-pink-200 {
+  background-color: var(--color-pink-200);
 }
 .bg-\[url\(\.\/Image\/hero-background\.png\)\] {
   background-image: url(./Image/hero-background.png);
@@ -82,17 +207,36 @@
 .px-6 {
   padding-inline: calc(var(--spacing) * 6);
 }
+.pt-2 {
+  padding-top: calc(var(--spacing) * 2);
+}
 .pt-8 {
   padding-top: calc(var(--spacing) * 8);
 }
 .pt-12 {
   padding-top: calc(var(--spacing) * 12);
 }
+.pt-20 {
+  padding-top: calc(var(--spacing) * 20);
+}
+.pt-25 {
+  padding-top: calc(var(--spacing) * 25);
+}
+.pt-30 {
+  padding-top: calc(var(--spacing) * 30);
+}
+.pt-32 {
+  padding-top: calc(var(--spacing) * 32);
+}
 .pt-36 {
   padding-top: calc(var(--spacing) * 36);
 }
 .text-center {
   text-align: center;
+}
+.text-2xl {
+  font-size: var(--text-2xl);
+  line-height: var(--tw-leading, var(--text-2xl--line-height));
 }
 .text-3xl {
   font-size: var(--text-3xl);
@@ -105,6 +249,10 @@
 .text-5xl {
   font-size: var(--text-5xl);
   line-height: var(--tw-leading, var(--text-5xl--line-height));
+}
+.text-lg {
+  font-size: var(--text-lg);
+  line-height: var(--tw-leading, var(--text-lg--line-height));
 }
 .leading-\[48px\] {
   --tw-leading: 48px;
@@ -186,13 +334,17 @@
       "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
+    --color-pink-200: oklch(0.899 0.061 343.231);
     --color-black: #000;
     --color-white: #fff;
     --spacing: 0.25rem;
+    --container-xs: 20rem;
     --container-md: 28rem;
     --container-xl: 36rem;
     --container-2xl: 42rem;
     --container-6xl: 72rem;
+    --text-lg: 1.125rem;
+    --text-lg--line-height: calc(1.75 / 1.125);
     --text-2xl: 1.5rem;
     --text-2xl--line-height: calc(2 / 1.5);
     --text-3xl: 1.875rem;
