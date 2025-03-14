@@ -63,11 +63,30 @@
     padding: 15px 20px;
 }
 
+.sidebar_menu .menu i, a {
+    color: white;
+    text-decoration: none;
+}
 
+.sidebar_menu .menu i {
+    padding-right:8px;
+}
 
+.sidebar_menu .social_media {
+    position: absolute;
+    left: 25%;
+    bottom: 20px;
+}
 
+.sidebar_menu .social_media i {
+    color: white;
+    opacity: 0.5;
+    padding: 0 5px;
+}
 
-
+#check {
+    display: none;
+}
 
 
 
