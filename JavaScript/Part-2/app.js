@@ -132,24 +132,33 @@
 // let mob = prompt("Enter your mobile number : -");
 // console.log(mob);
 
-let firstName = prompt("Enter Your First Name");
-let lastName = prompt("Enter Your Last Name");
+// let firstName = prompt("Enter Your First Name");
+// let lastName = prompt("Enter Your Last Name");
 
-let msg = "Welcome " + firstName + " " +  lastName + " !";
-alert(msg)
+// let msg = "Welcome " + firstName + " " +  lastName + " !";
+// alert(msg)
 
 // ===========================================================================
 // ===========================================================================
 
+// // Question no - 1;
+
+// let num = 127;
+// if(num % 10 == 0) {
+//     console.log("Number is divisible by 10");
+// } else {
+//     console.log("Number is not divisible by 10");
+// }
+
+// // Question no - 2;
+
+let Name = prompt("Enter your name : -");
+let age = prompt("Enter your age : -");
+
+alert(`Your name is ${Name} and Your age is ${age}`);
 
 
-
-
-
-
-
-
-
+// // Question no - 3;
 
 
 
