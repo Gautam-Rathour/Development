@@ -126,10 +126,19 @@
 // alert("this is a simple alert!");
 
 // console.log("Hyy");
-console.log("this is a simple log");
-console.error("this is an error msg")
+// console.log("this is a simple log");
+// console.error("this is an error msg")
 
+// let mob = prompt("Enter your mobile number : -");
+// console.log(mob);
 
+let firstName = prompt("Enter Your First Name");
+let lastName = prompt("Enter Your Last Name");
+
+let msg = "Welcome " + firstName + " " +  lastName + " !";
+alert(msg)
+
+// ===========================================================================
 
 
 
