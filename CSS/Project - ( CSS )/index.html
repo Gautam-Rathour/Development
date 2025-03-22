@@ -6,7 +6,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline:opsz,wght@10..72,100..900&family=DM+Serif+Text:ital@0;1&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <title>CSS Project</title>
+    <title>Spotify</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
@@ -48,8 +48,107 @@
                 </div>
             </div>
         </div>
-        <div class="main-content">main content</div>
-        <div class="music-player">music player</div>
+        <div class="main-content">
+            <div class="sticky-nav">
+                <div class="sticky-nav-icons">
+                    <img src="image/backward_icon.png">
+                    <img src="image/forward_icon.png" class="hide">
+                </div>
+                <div class="sticky-nav-options">
+                    <button class="badge nev-item hide" class="hide">Explore Premium </button>
+                    <button class="badge nev-item dark-badge"><i class="fa-regular fa-circle-down" style="margin-right: 5px;"></i>Install App</button>
+                    <i class="fa-regular fa-user nev-item"></i>
+                </div>
+            </div>
+
+
+            <h2>Recently Played</h2>
+            <div class="card-container">
+                <div class="card">
+                    <img src="image/card1img.jpeg" class="card-img">
+                    <p class="card-title">Top 50 - Global</p>
+                    <p class="card-info">Your daily updates of the most played...</p>
+                </div>
+            </div>
+
+
+            <h2>Trending new near you</h2>
+            <div class="card-container">
+                <div class="card">
+                    <img src="image/card2img.jpeg" class="card-img">
+                    <p class="card-title">Top 50 - Global</p>
+                    <p class="card-info">Your daily updates of the most played...</p>
+                </div>
+                <div class="card">
+                    <img src="image/card3img.jpeg" class="card-img">
+                    <p class="card-title">Top 50 - Global</p>
+                    <p class="card-info">Your daily updates of the most played...</p>
+                </div>
+                <div class="card">
+                    <img src="image/card4img.jpeg" class="card-img">
+                    <p class="card-title">Top 50 - Global</p>
+                    <p class="card-info">Your daily updates of the most played...</p>
+                </div>
+                <div class="card">
+                    <img src="image/card3img.jpeg" class="card-img">
+                    <p class="card-title">Top 50 - Global</p>
+                    <p class="card-info">Your daily updates of the most played...</p>
+                </div>
+                <div class="card">
+                    <img src="image/card4img.jpeg" class="card-img">
+                    <p class="card-title">Top 50 - Global</p>
+                    <p class="card-info">Your daily updates of the most played...</p>
+                </div>
+            </div>
+
+
+            <h2>Featured Charts</h2>
+            <div class="card-container">
+                <div class="card">
+                    <img src="image/card5img.jpeg" class="card-img">
+                    <p class="card-title">Top 50 - Global</p>
+                    <p class="card-info">Your daily updates of the most played...</p>
+                </div>
+                <div class="card">
+                    <img src="image/card6img.jpeg" class="card-img">
+                    <p class="card-title">Top 50 - Global</p>
+                    <p class="card-info">Your daily updates of the most played...</p>
+                </div>
+                <div class="card">
+                    <img src="image/card1img.jpeg" class="card-img">
+                    <p class="card-title">Top 50 - Global</p>
+                    <p class="card-info">Your daily updates of the most played...</p>
+                </div>
+                <div class="card">
+                    <img src="image/image.jpg" class="card-img">
+                    <p class="card-title">Top 50 - Global</p>
+                    <p class="card-info">Your daily updates of the most played...</p>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="line"></div>
+            </div>
+        </div>
+        <div class="music-player">
+            <div class="box1">
+                <div>
+                    <img src="image/image2.jpeg" class="music-player-img">
+                </div>
+                <div style="margin-left: 1rem;">
+                    <p class="music-player-title">Tum Hi Ho</p>
+                    <p class="music-player-info">Mithoon, Arijit Singh</p>
+                </div>
+                <div class="love_icon">
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+                <div class="small_screen">
+                    <i class="fa-regular fa-expand"></i>
+                </div>
+                
+            </div>
+            <div class="box2"></div>
+            <div class="box3"></div>
+        </div>
     </div>
 </body>
 </html>
