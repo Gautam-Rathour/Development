@@ -238,13 +238,13 @@ a {
     opacity: 0.4;
 }
 
-.box1 {
+.album {
     color: rgb(177, 12, 12);
     display: flex;
     align-items: center;
     margin: 1rem;
 }
-.box1 img {
+.album img {
     width: 60px;
     height: 60px;
 }
@@ -269,6 +269,52 @@ a {
     margin-left: 1rem;
     transform: rotate(90deg);
 }
+
+.music-player {
+    display: flex;
+
+}
+.album {
+    width: 25%;
+}
+
+.player {
+    width: 50%;
+}
+
+.controls {
+    width: 25%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
