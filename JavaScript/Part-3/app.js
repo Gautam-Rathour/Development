@@ -119,15 +119,103 @@
 // console.log(cars);
 
 // Practice Qs : --
-let month = ["january", "july", "march", "august"];
-month.shift();
-month.shift();
-month.unshift("june");
-month.unshift("july");
-console.log(month);
+// let month = ["january", "july", "march", "august"];
+// month.shift();
+// month.shift();
+// month.unshift("june");
+// month.unshift("july");
+// console.log(month);
 
 // // ===========================================================================
+// // Array Methods : ---
+
+// let primary = ["red", "yellow", "blue"];
+// let index = primary.indexOf("blue");
+// console.log(index);
+// // include --
+// let include = primary.includes("red");
+// console.log(include);
+
+// // Concat Methods : --- (Array)
+
+// let primary = ["green", "black", "white"];
+// let secondary = ["red", "yellow", "blue"];
+// let allColor = primary.concat(secondary);
+// console.log(allColor);
+
+// // Reverse : --
+// let primary = ["green", "black", "white"];
+// let reverse = primary.reverse();
+// console.log(reverse);
+
+// // slice in a Array  : ---
+// let color = ["green", "black", "white", "red", "yellow"];
+// let arrSlice = color.slice(2, 4);
+// console.log(arrSlice);
+// console.log(color.slice(-2));
+
+// let color = ["green", "black", "white", "red", "yellow", "pink", "orange"];
+
+// // console.log(color.splice(3, 6));
+// // console.log(color);
+// // console.log(color.splice(0,0));
+// // console.log(color.splice(1, 0, "purple"));
+// // console.log(color);
+
+// console.log(color.splice(1,2, "redyellow"));
+// console.log(color)
+
 // // ===========================================================================
+// // Array Methods : --- (Sort) --
+
+// let color = ["green", "black", "white", "red", "yellow", "pink", "orange"];
+// console.log(color.sort());
+
+// Practice Qs : -
+let month = ["january", "july", "march", "august"];
+month.splice(0,1);
+month.splice(1,0,"june");
+console.log(month);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
