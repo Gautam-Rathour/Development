@@ -128,23 +128,45 @@
 // // square = (n) => (n * n);
 // console.log(square(40));
 
-// // Practice Qs : --
-const id1 = setInterval( () => {
-    console.log("Hello");
-}, 2000);
+// // // Practice Qs : --
+// const id1 = setInterval( () => {
+//     console.log("Hello");
+// }, 2000);
 
-setTimeout( () => {
-    clearInterval(id1);
-}, 10000)
+// setTimeout( () => {
+//     clearInterval(id1);
+// }, 10000)
 
 // ===========================================================
 // ===========================================================
 // // Practice Qs : --
 
+// const arrAverage = (arr) => {
+//     let sum = 0;
+//     const n = arr.length;
+//     for(let i=0; i<n; i++) {
+//         sum += arr[i];
+//     }
+
+//     return sum/n;
+
+// }
+
+// const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+// const ans = arrAverage(arr);
+// console.log(ans);
+
 // // Practice Qs : --
 
+const isEven = (n) => {
+    if(n % 2 === 0) {
+        console.log(n , "  is Even Number");
+    } else {
+        console.log(n , "  is Odd Number");
+    }
+}
 
-
-
+console.log(isEven(7));
 
 
