@@ -66,7 +66,7 @@
 //     h1.style.color = "blue";
 // }, 3000);
 
-// ==============================================================================================
+// // ==============================================================================================
 
 
 // h1 = document.querySelector("h1");
@@ -137,42 +137,91 @@
 // Promises :  -----
 
 
-function savetoDb (data) {
-    return new Promise((resolve, reject) => {
-        let internetSpeed = Math.floor(Math.random() * 10) + 1;
-        if(internetSpeed > 4) {
-                resolve("success : data was saved");
-            } else {
-                reject("failure : weak connection");
-            }
-    });
-}
+// function savetoDb (data) {
+//     return new Promise((resolve, reject) => {
+//         let internetSpeed = Math.floor(Math.random() * 10) + 1;
+//         if(internetSpeed > 4) {
+//                 resolve("success : data was saved");
+//             } else {
+//                 reject("failure : weak connection");
+//             }
+//     });
+// }
 
 
-savetoDb("Mohit babu")
-.then((result) => {
-    console.log("data1 saved.");
-    console.log("Result of promise :- ", result);
-    return savetoDb("helloworld");
-})
-.then((result) => {
-    console.log("data2 saved");
-    console.log("Result of promise :- ", result);
-    return savetoDb("Saurabh.");
-})
-.then((result) => {
-    console.log("data3 saved");
-    console.log("Result of promise :- ", result)
-})
-.catch((error) => {
-    console.log("promise was rejected.");
-    console.log("Error of promise :- ", error);
-})
+// savetoDb("Mohit babu")
+// .then((result) => {
+//     console.log("data1 saved.");
+//     console.log("Result of promise :- ", result);
+//     return savetoDb("helloworld");
+// })
+// .then((result) => {
+//     console.log("data2 saved");
+//     console.log("Result of promise :- ", result);
+//     return savetoDb("Saurabh.");
+// })
+// .then((result) => {
+//     console.log("data3 saved");
+//     console.log("Result of promise :- ", result)
+// })
+// .catch((error) => {
+//     console.log("promise was rejected.");
+//     console.log("Error of promise :- ", error);
+// })
 
 // ==============================================================================================
 // ==============================================================================================
 // ==============================================================================================
 // ==============================================================================================
+
+
+// ==============================================================================================
+
+
+// h1 = document.querySelector("h1");
+
+// function changeColor(color, delay) { 
+//     return new Promise((resolve, reject) => {
+//         setTimeout(() => {
+//             h1.style.color = color;
+//             resolve("color changed!");
+//         }, delay)
+//     });
+    
+// }
+
+// changeColor("red", 2000)
+// .then(() => {
+//     console.log("red color was completed");
+//     return changeColor("orange", 2000);
+// }).then(() => {
+//     console.log("orange color was completed");
+//     return changeColor("green", 2000);
+// }).then(() => {
+//     console.log("green color was completed");
+//     return changeColor("blue", 2000);
+// }).then(() => {
+//     console.log("blue color was completed");
+// });
+
+// ==============================================================================================
+// ==============================================================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
