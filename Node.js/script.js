@@ -23,10 +23,14 @@
 
 
 
-const info = require("./Fruits");
+// const info = require("./Fruits");
+// console.log(info[0].color);
 
-console.log(info[0].color);
 
+import { sum, PI, mul } from "./math.js";
+
+console.log(PI);
+console.log(mul(2, 4));
 
 
 
