@@ -19,6 +19,19 @@ app.get("/:username/:id", (req, res) => {
     res.send(htmlStr);
 });
 
+// app.get("/search", (req, res) => {
+//     console.log(req.query);
+//     res.send("no results");
+// });
+
+app.get("/search", (req, res) => {
+        let { q } = req.query;
+        if(!q) {
+            res.send("<h1>nothing searched</h1>")
+        }
+        res.send(`<h1>search results for query: ${q}</h1>`);
+    });
+
 // app.get("/apple", (req, res) => {
 //     res.send(`welcome to the page of @${username}.`);
 // });
