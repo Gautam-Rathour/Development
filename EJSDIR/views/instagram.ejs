@@ -7,9 +7,14 @@
     <title>Instagram</title>
 </head>
 <body>
-    <h2>This page belongs to @<%= username %> </h2>
+    <h2>This page belongs to @<%= data.name %> </h2>
     <button>Follow</button>
     <button>Massage</button>
+
+    <p>Followers : <%= data.followers %> </p>
+    <p>Following : <%= data.following %> </p>
+    <hr>
+    
 </body>
 </html>
 

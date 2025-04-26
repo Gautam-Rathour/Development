@@ -15,20 +15,22 @@ app.get("/", (req, res) => {
 
 app.get("/ig/:username", (req, res) => {
     let { username } = req.params;
-    console.log(username);
-    res.render("instagram.ejs", { username: username });
-})
+    const instaData = require("./data.json");
+    const data = instaData[username];
+    console.log(data);
+    res.render("instagram.ejs", {data: data});
+});
 
 
 
 app.get("/hello", (req, res) => {
     res.send("hello")
-})
+});
 
 app.get("/rolldice", (req, res) => {
     let diceVal = Math.floor(Math.random() * 6) + 1;
     res.render("rolldice", {diceVal: diceVal});
-})
+});
 
 const port = 8080;
 
