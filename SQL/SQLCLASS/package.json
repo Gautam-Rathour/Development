@@ -1,11 +1,11 @@
 {
-  "name": "sql",
+  "name": "sqlclass",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Mr. Rathour. ..",
+  "author": "Mr. Singh. ..",
   "license": "ISC",
   "description": "",
   "dependencies": {
