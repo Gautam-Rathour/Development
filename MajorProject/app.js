@@ -32,6 +32,11 @@ app.get("/listings", async (req, res) => {
 });
 
 
+// Show Route 
+app.get("/listings/:id", (req, res) => {
+    
+})
+
 // app.get("/testListing", async (req, res) => {
 //     let sampleListing = new Listing({
 //         title: "My New Villa",

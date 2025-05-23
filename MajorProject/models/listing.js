@@ -14,7 +14,6 @@ const listingSchema = new Schema({
         },
         url: {
             type: String,
-            default: "https://assets.telegraphindia.com/telegraph/2022/Sep/1662271595_0124.jpg",
             set: (v) =>
                 v === ""
                     ? "https://assets.telegraphindia.com/telegraph/2022/Sep/1662271595_0124.jpg"
