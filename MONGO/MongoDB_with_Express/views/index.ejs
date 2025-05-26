@@ -19,12 +19,22 @@
                 <p> <%= chat.msg %> </p>
                 <form method="GET" action="/chats/<%= chat._id %>/edit">
                     <button> Edit </button>
+                </form><br/>
+
+                <form method="POST" action="/chats/<%= chat._id %>?_method=DELETE">
+                    <button> Delete </button>
                 </form>
             </div>
             <p>Received by : <i><%= chat.to %></i> </p>
             <hr>
-            <p> Time:-   <%= chat.created_at.toString().split(" ")[4] %> </p>
-            <p> Date:-   <%= chat.created_at.toString().split(" ").slice(0, 4).join("-") %> </p>
+            <% if (chat.created_at) { %>
+                <p> Time:- <%= chat.created_at.toString().split(" ")[4] %> </p>
+                <p> Date:- <%= chat.created_at.toString().split(" ").slice(0, 4).join("-") %> </p>
+            <% } else { %>
+                <p> Time:- Not available </p>
+                <p> Date:- Not available </p>
+            <% } %>
+
         </div>
         <br/><br/><br/><br/>
     <% } %>
