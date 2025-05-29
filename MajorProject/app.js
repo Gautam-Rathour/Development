@@ -51,11 +51,15 @@ app.get("/listings/:id", async (req, res) => {
 });
 
 // Create Route
-app.post("/listings", async (req, res) => {
-    // let {title, description, image, price, country, location} = req.body;
-    const newListing = new Listing(req.body.listing);
-    await newListing.save();
-    res.redirect("/listings");
+app.post("/listings", async (req, res, next) => {
+
+    try {
+        const newListing = new Listing(req.body.listing);
+        await newListing.save();
+        res.redirect("/listings");
+    } catch (err) {
+        next(err);
+    }
 });
 
 // Edit Rout
@@ -101,9 +105,9 @@ app.delete("/listings/:id", async (req, res) => {
 
 
 
-
-
-
+app.use((err, req, res, next) => {
+    res.send("Something went wrong");
+})
 
 
 
