@@ -18,6 +18,7 @@ const userSchema = new Schema({
     username: String,
     addresses: [
         {
+            _id: false,
             locations: String,
             city: String,
         },
