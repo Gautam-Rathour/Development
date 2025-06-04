@@ -9,6 +9,7 @@ app.get("/", (req, res) => {
 });
 
 app.use("/users", users);
+app.use("/posts", posts);
 
 
 
