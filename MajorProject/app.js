@@ -29,10 +29,13 @@ app.use(methodOverride("_method"));
 app.engine('ejs', ejsMate);
 app.use(express.static(path.join(__dirname, "/public")));
 
-
 app.get("/", (req, res) => {
     res.send("Hi, I am Root!");
 });
+
+
+
+
 
 
 app.use("/listings", listings);
