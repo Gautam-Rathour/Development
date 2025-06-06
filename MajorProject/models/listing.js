@@ -21,7 +21,7 @@ const listingSchema = new Schema({
                     ? "https://assets.telegraphindia.com/telegraph/2022/Sep/1662271595_0124.jpg"
                     : v,
         }
-    },
+    }, 
     price: Number,
     location: String,
     country: String,
@@ -29,8 +29,12 @@ const listingSchema = new Schema({
         {
             type: Schema.Types.ObjectId,
             ref: "Review"
-        }
-    ]
+        },
+    ],
+    owner: {
+        type: Schema.Types.ObjectId,
+        ref: "User",
+    }
 });
 
 
