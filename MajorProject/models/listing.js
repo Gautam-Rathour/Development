@@ -10,17 +10,8 @@ const listingSchema = new Schema({
     },
     description: String,
     image: {
-        filename: {
-            type: String,
-            default: "defaultimage"
-        },
-        url: {
-            type: String,
-            set: (v) =>
-                v === ""
-                    ? "https://assets.telegraphindia.com/telegraph/2022/Sep/1662271595_0124.jpg"
-                    : v,
-        }
+        url: String,
+        filename: String,
     }, 
     price: Number,
     location: String,
