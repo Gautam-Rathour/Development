@@ -141,3 +141,14 @@ body {
     border: none !important;
 }
 
+
+
+
+
+/* Map */
+#map { 
+    height: 500px; 
+    width: 80vh; 
+
+}
+
