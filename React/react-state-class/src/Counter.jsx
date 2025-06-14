@@ -1,29 +1,32 @@
 
 import { useState } from 'react';
 
-export default function Counter() {
-    let [count, setCount] = useState(0);
+function init() {
+    console.log("init was executed");
+    return Math.random();
+}
 
+export default function Counter() {
+    let [count, setCount] = useState(init); //initialization
+    console.log("component was re-rendered");
+  
 
     function increase() {
-        setCount (count + 1);
-        console.log(count);
+        setCount ((currCount) => {
+            return currCount + 1;
+        });
+        // setCount ((currCount) => {
+        //     return currCount + 1;
+        // });
+        // setCount(25);
     }
-
-    // function dicrease() {
-    //     setCount (count - 1);
-    //     console.log(count);
-    // }
 
     return (
         <>
             <h3>Count = {count} </h3>
             <span>
                 <button onClick={increase}>Counter+</button>
-                {/* <button onClick={dicrease}>Counter-</button> */}
             </span>
-      
-
         </>
     )
 }
