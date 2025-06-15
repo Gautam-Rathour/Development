@@ -23,10 +23,7 @@ export default function Counter() {
 
     return (
         <>
-            <h3>Count = {count} </h3>
-            <span>
-                <button onClick={increase}>Counter+</button>
-            </span>
+           
         </>
     )
 }

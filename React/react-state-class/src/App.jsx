@@ -1,17 +1,14 @@
 
 import './App.css'
 import Counter from "./Counter.jsx"
-import LikeButton from "./LikeButton.jsx"
+import TodoList from "./TodoList.jsx"
 
 function App() {
   return (
     <>
-      {/* <h1>States in React</h1> */}
-      <Counter/>
+      <TodoList/>
     </>
   )
-
- 
 }
 
 export default App
